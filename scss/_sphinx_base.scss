@@ -114,7 +114,7 @@ ul.pytorch-breadcrumbs {
 
 .tutorials-header {
   .header-logo {
-    background-image: url("../images/logo.svg");
+    background-image: url("../images/logos/logo_fts.svg");
   }
 
   .main-menu ul li a {
@@ -229,6 +229,7 @@ article.pytorch-article {
     li {
       margin: 0;
       line-height: rem(28px);
+      overflow-wrap: break-word;
     }
     p {
       line-height: rem(28px);

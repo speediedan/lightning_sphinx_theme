@@ -77,8 +77,8 @@
 .pytorch-content-right {
   display: none;
   position: relative;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  //overflow-x: hidden;
+  //overflow-y: hidden;
 
   @include sphinx-medium-size {
     display: block;
@@ -96,8 +96,8 @@
 .pytorch-side-scroll {
   @include sphinx-medium-size {
     position: relative;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    //overflow-x: hidden;
+    //overflow-y: scroll;
     height: 100%;
   }
 }
@@ -236,8 +236,8 @@
 
 .pytorch-right-menu {
   min-height: 100px;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  // overflow-x: hidden;
+  // overflow-y: hidden;
   left: 0;
   z-index: 200;
   padding-top: 0;
