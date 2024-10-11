@@ -168,7 +168,8 @@
   display: block;
   font-size: rem(16px);
   line-height: rem(22px);
-  margin-bottom: rem(16px);
+  margin-bottom: rem(2px);
+  margin-top: rem(10px);
   text-transform: none;
   white-space: normal;
 }
@@ -456,6 +457,8 @@
 
 .pytorch-left-menu ul {
   padding-left: 0;
+  margin-bottom: 0.25rem;
+  margin-left: 1.0rem;
 }
 
 .pytorch-right-menu {
